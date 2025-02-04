@@ -23,7 +23,7 @@ function App() {
       <Route path='/blog/:id' element={ <BlogDetail /> } />
       <Route path='/blog/edit/:id' element={ <EditBlog /> } />
 
-      {/* <Route path='/contact' element={ <Contact /> } /> */}
+      <Route path='/contact' element={ <Contact /> } />
     </Routes>
     <ToastContainer />
 
